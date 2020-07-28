@@ -40,6 +40,37 @@
     z-index:0;
 }
 
+.carousel {
+    background: #462DA8;
+    width: 1200px;
+}
+
+.carousel-item {
+  height: 200px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.carousel-caption {
+  text-align: right;
+  padding-top: 50px;
+  width: 75%;
+  position: relative;
+  padding-right: 50px;
+}
+
+.carousel-control-next {
+  align: right;
+
+}
+
 .navbar-dark {
      background-color: #462DA8;
 }
@@ -59,4 +90,8 @@
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.navbar-text:hover {
+  cursor: pointer;
 }
