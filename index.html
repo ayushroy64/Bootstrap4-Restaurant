@@ -143,10 +143,10 @@
 						</div>
 					</form>
 				</div>
-				<div class="modal-footer">
+				<!--<div class="modal-footer">
 					<button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
 					<button type="submit" class="btn btn-primary btn-sm">Sign in</button>
-				</div>
+				</div>!-->
 			</div>
 		</div>
 	</div>
@@ -404,6 +404,12 @@
                         $("#carouselButton").children("span").removeClass('fa-play');
                         $("#carouselButton").children("span").addClass('fa-pause');
                     }
+                    $('#loginButton').click(function() {
+                      $('#loginModal').modal('show');
+                    });
+                    $('#reserveButton').click(function() {
+                      $('#reservationModal').modal('show');
+                    });
                 });
                 </script>
     <!--<script>
